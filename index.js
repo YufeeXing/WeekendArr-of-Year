@@ -1,7 +1,7 @@
 //import moment.js
 const formatDate = "YYYY-MM-DD";
 
-function exportWeekend(year){
+export function exportWeekend(year){
     let weekendArr = [];
     const yearNum = Number(year);
     const mStartDate = moment().year(yearNum).startOf('year').endOf('day');//年起始日期
